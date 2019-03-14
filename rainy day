@@ -8,14 +8,14 @@ var v3 = 100;
 var b1=0;
 var b2=0;
 var b3=0;
-var h1=30;
+var h1=40;
 var y1 =35;
 
 
 function preload() {
   mySound = loadSound('rain-03.mp3');
   lighting =loadSound('lighting.mp3');
-  img = loadImage('Coroa-Dourada-02.png');
+  img = loadImage('lighting.png');
 
 }
 
@@ -98,7 +98,7 @@ v3=random(90,100);
   b3=v3;
   
   h1=40;
-  y1=35;
+  y1=25;
 
 }
 
@@ -106,5 +106,5 @@ function mouseReleased() {
   b1=0;
   b2=0;
   b3=0;
-  h1=30;
+  h1=20;
 }
